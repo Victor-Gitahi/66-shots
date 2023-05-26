@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.main__left {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 8rem;
+}
+
+.main__right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_image {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background-color: #00000046;
+  position: absolute;
+}
+
+.nav {
+  z-index: 1000;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+}
+
+.list_item {
+  margin-inline: 2rem;
+}
+
+.nav_link {
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  color: #fff;
+  font-family: Poppins;
+  font-size: .75rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text {
+  font-family: Poppins;
+}
+
+.text__main-text {
+  letter-spacing: -3px;
+  margin-bottom: 2rem;
+  font-family: JetbrainsMono Nerd Font;
+  font-weight: bold;
+  line-height: .8;
+}
+
+.text__main-text h1 {
+  letter-spacing: -10px;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.text__main-text h3 {
+  font-size: 6rem;
+}
+
+.text__description {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: .9;
+}
+
+.btn_wrapper {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  margin: .75rem 0;
+  padding: .35rem .95rem;
+}
+
+.btn__link-btn {
+  color: #fff;
+  text-underline-offset: 5px;
+  background-color: #0000;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #6bff9014;
+  border-radius: .75rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: .75rem 1rem;
+  font-family: Poppins;
+  display: flex;
+}
+
+.card .site_logo {
+  height: 7rem;
+  width: 7rem;
+}
+
+.card__glass-card {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  height: 60vh;
+  max-height: 65vh;
+  margin-bottom: 2rem;
+}
+
+.card__main-text {
+  letter-spacing: -5px;
+  font-size: 4rem;
+  line-height: .8;
+}
+
+.card__description {
+  color: #616161;
+  font-size: .9rem;
+}
+
+.brand_identities {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.brand_identities img {
+  margin-inline: 2rem;
+}
+
+.icon__btn-icon {
+  height: .6rem;
+  margin-left: .25rem;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */
